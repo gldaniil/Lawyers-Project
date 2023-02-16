@@ -11,29 +11,43 @@ body {
     margin: 0;
     padding: 0;
     height: 12000px;
+    width: 100%;
 }
 p {
     margin: 0;
+}
+i {
+    font-size: 28px;
+}
+.fa {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px;
+    padding: 6px;
+    border-radius: 18px;
 }
 .header {
     background-color: #FFFFFF;
     position: sticky;
     top: 0;
     width: 100%;
-    /* z-index: 1; */
 }
 .container {
     width: 1200px;
+    box-sizing: border-box;
     margin: 0 auto;
 }
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1200px) {
     .container {
-        width: 820px;
+        width: auto;
+        margin: 0 8px;
     }
 }
 .header-top {
     display: flex;
     box-sizing: border-box;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
@@ -41,18 +55,23 @@ p {
 }
 .header-top a {
     text-decoration: none;
+    color: #000000;
 }
 .header-top__logo {
     flex-basis: 15%;
-    max-width: 25%
+    max-width: 15%;
 }
 .header-top__logo a {
     color: black;
     font-size: 68px; 
 }
 .header-top__address {
-    flex-basis: 25%;
-    max-width: 25%
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    flex-basis: 35%;
+    max-width: 35%;
 }
 .header-top__worktime {
     display: flex;
@@ -61,21 +80,17 @@ p {
     flex-basis: 25%;
     max-width: 25%
 }
-.header-top__communication {
+.header-top__worktime-number {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 100%;
-    flex-basis: 25%;
-    max-width: 25%
+    align-items: center;
+}
+.header-top__worktime-number a {
+    font-size: 25px;
 }
 .header-top__socials {
-    width: 100%;
+    flex-basis: 10%;
+    max-width: 10%;
     text-align: center;
-}
-.header-top__socials {
-    margin: 10px 0 0 0;
-    font-size: 28px;
 }
 .header-top__socials .fa-telegram {
     color: #23aaea;
@@ -83,10 +98,11 @@ p {
 .header-top__socials .fa-whatsapp {
     color: #3adc57;
 }
-.header-top__button-call {
-    width: 100%;
+.header-top__call {
+    flex-basis: 15%;
+    max-width: 15%;
 }
-.header-top__button-call a {
+.header-top__call a {
     display: block;
     padding: 5px 15px;
     margin: 5px 0;
@@ -97,7 +113,11 @@ p {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    /* transition: all ease-in-out 0.3s; */
+    transition: all ease-in-out 0.3s;
+}
+.header-top__call a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
 }
 .header-bottom {
 }
