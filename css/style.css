@@ -158,6 +158,7 @@ i {
 .sub-menu__item {
     line-height: 35px;
     background-color: #FFFFFF;
+    min-width: 250px;
     width: auto;
     padding: 0 20px;
     text-align: left;
