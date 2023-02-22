@@ -214,6 +214,19 @@ i {
 .sub-sub-menu__item:last-child {
     padding-bottom: 20px;
 }
+.menu__arrow {}
+body.mouse .sub-menu__item:hover .sub-sub-menu__list {
+    display: block;
+}
+body.mouse .menu__item:hover .sub-menu__list {
+    display: block;
+}
+body.touch .sub-menu__list.open {
+    display: block;
+}
+body.touch .sub-sub-menu__list.open {
+    display: block;
+}
 .fa-angle-down {
     font-size: 12px;
     margin-left: 10px;
