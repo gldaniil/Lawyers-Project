@@ -120,10 +120,15 @@ i {
     background-color: #000000;
 }
 .header-bottom {
+    border-bottom: 1px #0000001c solid;
 }
 .bottom-menu a {
     text-decoration: none;
     transition: color ease-in-out 0.3s;
+}
+.bottom-menu a:hover {
+    color: #851000;
+    box-shadow: 0 2px 2px -1px rgb(0, 0, 0);
 }
 .bottom-menu li {
     position: relative;
@@ -133,64 +138,86 @@ i {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 15px 0;
+    padding: 0;
 }
 .menu__item {
     width: 100%;
     text-align: center;
+    padding: 15px 0;
 }
 .menu__link {
     color: #000000;
-    font-size: 14px;
+    font-size: 1vw;
     font-weight: 600;
     line-height: 50px;
-}
-.menu__link:hover {
-    color: #851000;
 }
 .sub-menu__list {
     display: none;
     position: absolute;
-    top: 20px;
+    width: auto;
+    text-align: left;
+    top: 40px;
     left: 0;
-    padding: 20px 0 0 0;
+    margin: 40px 0 0 0;
+    padding: 0;
+    border: 1px #0000001c solid;;
+    background-color: #FFFFFF;
+    background-clip: border-box;
+    z-index: 117;
 }
 .sub-menu__item {
-    line-height: 35px;
+    box-sizing: border-box;
     background-color: #FFFFFF;
-    min-width: 250px;
-    width: auto;
-    padding: 0 20px;
-    text-align: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+.sub-menu__item:first-child {
+    padding-top: 20px;
+}
+.sub-menu__item:last-child {
+    padding-bottom: 20px;
 }
 .sub-menu__link {
     color: #000000;
-    font-size: 12px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 20px;
+    display: inline-block;
+    white-space: nowrap;
 }
 .sub-sub-menu__list {
-    min-width: 300px;
     display: none;
     position: absolute;
-    top: 0;
+    width: auto;
+    top: -1px;
     left: 100%;
     padding: 0;
+    border: 1px #0000001c solid;
+    background-color: #FFFFFF;
+    background-clip: border-box;
 }
 .sub-sub-menu__item {
+    box-sizing: border-box;
     background-color: #FFFFFF;
+    width: 100%;
+    padding: 10px 20px;
 }
 .sub-sub-menu__link {
     color: #000000;
-    font-size: 12px;
+    font-size: 1vw;
     font-weight: 400;
-    line-height: 20px;
+    display: inline-block;
+    white-space: nowrap;
 }
-
+.sub-sub-menu__item:first-child {
+    padding-top: 20px;
+}
+.sub-sub-menu__item:last-child {
+    padding-bottom: 20px;
+}
 .arrow {
     position: absolute;
     right: 10px;
-    top: 20px;
+    top: 45%;
     width: 0;
     height: 0;
     border-top: 10px solid #000000;
