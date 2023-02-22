@@ -214,26 +214,8 @@ i {
 .sub-sub-menu__item:last-child {
     padding-bottom: 20px;
 }
-.arrow {
-    position: absolute;
-    right: 10px;
-    top: 45%;
-    width: 0;
-    height: 0;
-    border-top: 10px solid #000000;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-}
-.menu__arrow {}
-body.mouse .sub-menu__item:hover .sub-sub-menu__list {
-    display: block;
-}
-body.mouse .menu__item:hover .sub-menu__list {
-    display: block;
-}
-body.touch .sub-menu__list.open {
-    display: block;
-}
-body.touch .sub-sub-menu__list.open {
-    display: block;
+.fa-angle-down {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #a5a5a5;
 }
