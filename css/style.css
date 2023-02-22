@@ -109,7 +109,7 @@ i {
     border: 2px #000000 solid;
     border-radius: 10px;
     color: black;
-    font-size: 14px;
+    font-size: 0.72916vw;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
@@ -125,10 +125,10 @@ i {
 .bottom-menu a {
     text-decoration: none;
     transition: color ease-in-out 0.3s;
+    border-bottom: 1px #00000000 solid;
 }
 .bottom-menu a:hover {
-    color: #851000;
-    box-shadow: 0 2px 2px -1px rgb(0, 0, 0);
+    border-bottom: 1px #000000 solid;
 }
 .bottom-menu li {
     position: relative;
@@ -160,7 +160,7 @@ i {
     left: 0;
     margin: 40px 0 0 0;
     padding: 0;
-    border: 1px #0000001c solid;;
+    border: 1px #0000001c solid;
     background-color: #FFFFFF;
     background-clip: border-box;
     z-index: 117;
@@ -179,7 +179,7 @@ i {
 }
 .sub-menu__link {
     color: #000000;
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
@@ -203,7 +203,7 @@ i {
 }
 .sub-sub-menu__link {
     color: #000000;
-    font-size: 1vw;
+    font-size: 18px;
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
