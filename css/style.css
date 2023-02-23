@@ -143,10 +143,10 @@ i {
 .bottom-menu a {
     text-decoration: none;
     transition: color ease-in-out 0.3s;
-    border-bottom: 1px #00000000 solid;
+    border-bottom: 2px #00000000 solid;
 }
 .bottom-menu a:hover {
-    border-bottom: 1px #0060ac solid;
+    border-bottom: 2px #0060ac solid;
 }
 .bottom-menu li {
     position: relative;
@@ -165,7 +165,7 @@ i {
 }
 .menu__link {
     color: #000000;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 600;
     line-height: 50px;
 }
@@ -197,7 +197,7 @@ i {
 }
 .sub-menu__link {
     color: #000000;
-    font-size: 18px;
+    font-size: 17x;
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
@@ -221,7 +221,7 @@ i {
 }
 .sub-sub-menu__link {
     color: #000000;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
