@@ -124,7 +124,7 @@ i {
     display: block;
     padding: 5px 15px;
     margin: 5px 0;
-    border: 1px #0060ac solid;
+    border: 2px #0060ac solid;
     border-radius: 10px;
     color: black;
     font-size: 0.72916vw;
@@ -197,7 +197,7 @@ i {
 }
 .sub-menu__link {
     color: #000000;
-    font-size: 17x;
+    font-size: 17px;
     font-weight: 400;
     display: inline-block;
     white-space: nowrap;
