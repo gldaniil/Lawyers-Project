@@ -43,7 +43,7 @@
             <div class="header-bottom">
                 <nav class="bottom-menu">
                     <ul class="menu__list">
-                        <li id="about-us" class="menu__item">
+                        <li id="li-about-us" class="menu__item">
                             <a href="/" class="menu__link" onclick="return clickedLink()">О компании</a>
                             <i class="fa-solid fa-angle-down"></i>
                             <ul class="sub-menu__list">
@@ -59,10 +59,14 @@
                                 <li class="sub-menu__item"><a href="/" class="sub-menu__link">Статьи</a></li>
                             </ul>
                         </li>
-                        <li class="menu__item">
-                            <a href="/" class="menu__link">Услуги</a>
+                        <li id="li-services" class="menu__item">
+                            <a href="/" class="menu__link" onclick="return clickedLink()">Услуги</a>
                             <i class="fa-solid fa-angle-down"></i>
                             <ul class="sub-menu__list">
+                                <li class="sub-menu__item back">
+                                    <i class="fa-solid fa-angle-left"></i>
+                                    <a href="/" class="sub-menu__link" onclick="return clickedLink()">Услуги</a>
+                                </li>
                                 <li class="sub-menu__item">
                                     <a href="/" class="sub-menu__link">Автоюрист</a>
                                     <ul class="sub-sub-menu__list">
